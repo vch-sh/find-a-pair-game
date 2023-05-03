@@ -151,7 +151,7 @@ function compareCardsTextContent(e) {
 		if (checkLength(app.indexArr)) {
 			++app.correctPairsCounter;
 			setTimeout( () => {
-				new Audio('./sounds/correct-pair.mp3').play();
+				new Audio('https://github.com/vch-sh/js-find-a-pair-game/sounds/correct-pair.mp3').play();
 				app.compareCards[0].parentElement.classList.add('succesfullyCompared');
 				app.compareCards[1].parentElement.classList.add('succesfullyCompared');
 				cleanArrs(app.indexArr, app.compareCards);
@@ -220,7 +220,7 @@ function implementWinState() {
 			footer.classList.add('footer-end-game');
 
 			setTimeout(() => {
-				new Audio('./sounds/win.mp3').play();
+				new Audio('https://github.com/vch-sh/js-find-a-pair-game/sounds/win.mp3').play();
 				headerTitle.style.marginTop = -75 + 'px';
 			}, 500)
 
