@@ -1,19 +1,19 @@
 // 1. DOM 
-const header 									= document.querySelector('.header');
-const headerTitle 						= document.querySelector('.header__title');
-const headerRules 						= document.querySelector('.header__rules');
-const headerComplexity				= document.querySelector('.header__complexity');
+const header 			= document.querySelector('.header');
+const headerTitle 		= document.querySelector('.header__title');
+const headerRules 		= document.querySelector('.header__rules');
+const headerComplexity		= document.querySelector('.header__complexity');
 const headerComplexityOption	= document.querySelectorAll('.header__complexity-option');
-const headerButton						= document.querySelector('.header__btn');
-const cards 									= document.querySelector('.cards');
-const card 										= document.querySelectorAll('.card');
-const footer 									= document.querySelector('.footer');
-const footerMovesCount 				= document.querySelector('.footer__moves-count');
-const minutes									= document.querySelector('.footer__time-minutes');
-const seconds									= document.querySelector('.footer__time-seconds');
-const restart									= document.querySelector('.restart');
-const restartButton						= document.querySelector('.restart__btn');
-const footerWin								= document.querySelector('.footer__win');
+const headerButton		= document.querySelector('.header__btn');
+const cards 			= document.querySelector('.cards');
+const card 			= document.querySelectorAll('.card');
+const footer 			= document.querySelector('.footer');
+const footerMovesCount 		= document.querySelector('.footer__moves-count');
+const minutes			= document.querySelector('.footer__time-minutes');
+const seconds			= document.querySelector('.footer__time-seconds');
+const restart			= document.querySelector('.restart');
+const restartButton		= document.querySelector('.restart__btn');
+const footerWin			= document.querySelector('.footer__win');
 
 // 2. Variables 
 let smiles = [
@@ -71,8 +71,8 @@ let app = {
 // 3. Default settings
 headerRules.classList.add	('hide');
 footerWin.classList.add		('hide');
-footer.classList.add			('hide');
-restart.classList.add			('hide');
+footer.classList.add		('hide');
+restart.classList.add		('hide');
 if (location.reload) headerComplexityOption.forEach(elem => elem.checked = false);
 
 // 4. Events
@@ -151,7 +151,7 @@ function compareCardsTextContent(e) {
 		if (checkLength(app.indexArr)) {
 			++app.correctPairsCounter;
 			setTimeout( () => {
-				new Audio('/sounds/correct-pair.mp3').play();
+				new Audio('./sounds/correct-pair.mp3').play();
 				app.compareCards[0].parentElement.classList.add('succesfullyCompared');
 				app.compareCards[1].parentElement.classList.add('succesfullyCompared');
 				cleanArrs(app.indexArr, app.compareCards);
@@ -220,7 +220,7 @@ function implementWinState() {
 			footer.classList.add('footer-end-game');
 
 			setTimeout(() => {
-				new Audio('/sounds/win.mp3').play();
+				new Audio('./sounds/win.mp3').play();
 				headerTitle.style.marginTop = -75 + 'px';
 			}, 500)
 
