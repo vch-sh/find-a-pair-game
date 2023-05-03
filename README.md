@@ -1,7 +1,7 @@
 ## [Find a Pair (Game)](https://vch-sh.github.io/js-find-a-pair-game/) 
 **Ctrl/Command** + click to open a link in a new window
 
-This is a game of finding matching pairs of pictures. There are three levels of difficulty, a timer, a small sound effect, and result tracking.
+This is a game of finding matching pairs of pictures. There are three levels of difficulty, a timer, small sound effects, and result tracking.
 
 ### Developing this project, I practiced the following:
 * working with functions (writing main and auxiliary functions)
