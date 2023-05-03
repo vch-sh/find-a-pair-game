@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Find a pair</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Black+Ops+One:regular" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker:regular" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Kalam:300,regular,700" rel="stylesheet" />
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js" defer></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="header">
+			<div class="header__title">Find a pair</div>
+			<p class="header__rules">To play a game click on cards to find all pairs.</p>
+
+				<div class="header__complexity">
+					<div class="header__complexity-title">▽ Game mode ▽</div>
+										
+					<input class="header__complexity-option easy-option" id="easy-option" type="radio" name="option" value="1">
+					<label class="header__complexity-label" for="easy-option">easy</label>
+
+					<input class="header__complexity-option normal-option" id="normal-option" type="radio" name="option" value="2">
+					<label class="header__complexity-label" for="normal-option">normal</label>
+
+					<input class="header__complexity-option hard-option" id="hard-option" type="radio" name="option" value="3">
+					<label class="header__complexity-label" for="hard-option">hard</label>
+					
+					<button class="header__btn">Start</button>
+				</div>
+		</div>
+
+		<ul class="cards">
+			<li class="card" data-position="0">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="1">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="2">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="3">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="4">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="5">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="6">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="7">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="8">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="9">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="10">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="11">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="12">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="13">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="14">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="15">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="16">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="17">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="18">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="19">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="20">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="21">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="22">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="23">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="24">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="25">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="26">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="27">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="28">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+			<li class="card" data-position="29">
+				<div class="card-front"></div>
+				<div class="card-back"></div>
+			</li>
+		</ul>
+
+		<div class="footer">
+			<div class="footer__moves">Moves: <span class="footer__moves-count">0</span></div>
+			<div class="footer__win">🏆</div>
+			<div class="footer__time">
+				<span class="footer__time-minutes">00</span>
+				<span>:</span>
+				<span class="footer__time-seconds">00</span>
+			</div>
+		</div>
+
+		<div class="restart">
+			<button class="restart__btn">restart</button>
+		</div>
+	</div>
+</body>
+</html>
