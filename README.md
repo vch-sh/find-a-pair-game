@@ -1,4 +1,4 @@
-## [Find a Pair (Game)](https://vch-sh.github.io/js-find-a-pair-game/) 
+## [Find a Pair (Game)](https://vch-sh.github.io/find-a-pair-game/) 
 **Ctrl/Command** + click to open a link in a new window
 
 Find a Pair is a simple memory matching game where players need to find matching pairs of images hidden behind cards. The game offers three difficulty levels: easy, normal, and hard. The objective is to clear all the cards by matching all the pairs.
